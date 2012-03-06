@@ -1,0 +1,11 @@
+[user]
+	name = Egor Nazarkin
+	email = nimnull@gmail.com
+[color]
+	ui = auto
+
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 412x200+752+248
+[core]
+	editor = vim

@@ -5,7 +5,7 @@ call pathogen#helptags()
 call pathogen#infect()
 
 syntax on                 " syntax highlighing
-filetype on
+" filetype on
 filetype plugin on
 filetype plugin indent on " turn on the indent plugins
 
@@ -13,7 +13,6 @@ filetype plugin indent on " turn on the indent plugins
 " first autocmd for the filetype here
 au FileType * setlocal colorcolumn=0
 
-au BufRead *.js set makeprg=jslint\ %
 au BufNewFile,BufRead *.html,*.mako,*.mak,*.jinja2 set ft=htmldjango
 au BufRead *.py set efm=%C\ %.%#,%A\ \ File\ \"%f\"\\,\ line\ %l%.%#,%Z%[%^\ ]%\\@=%m
 au BufWritePost *.coffee silent CoffeeMake! -b | cwindow | redraw!
@@ -59,7 +58,7 @@ set colorcolumn=79
 set term=gnome-256color
 set smarttab
 set autoindent
-set guifont=Monospace\ 9
+set guifont=Monaco:h12
 set foldmethod=indent
 set foldlevel=99
 set nocompatible    " use vim defaults
@@ -91,8 +90,12 @@ au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|
 
 let g:pyflakes_use_quickfix=0
 let g:pep8_map='<leader>8'
-let mapleader=","             " change the leader to be a comma vs slash
+let mapleader=","  " change the leader to be a comma vs slash
 let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.pyo$']
+let g:syntastic_check_on_open=1
+let g:syntastic_mode_map = {'mode': 'active',
+ \ 'active_filetypes': ['python', 'javascript', 'coffee', 'lua'],
+ \ 'passive_filetypes': ['puppet', 'css', 'sass', 'haml', 'scss', 'json'] }
 
 map <c-j> <c-w>j
 map <c-k> <c-w>k
@@ -100,8 +103,7 @@ map <c-l> <c-w>l
 map <c-h> <c-w>h
 
 " Open NerdTree
-map <F4> :NERDTreeToggle<CR>
-
+map <leader>n :NERDTreeToggle<CR>
 
 " Toggle the tasklist
 map <leader>td <Plug>TaskList
@@ -133,15 +135,3 @@ nnoremap <leader>S :%s/\s\+$//<cr>:let @/=''<CR>
 " inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " Reload Vimrc
 map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
-
-
-py << EOF
-import os.path
-import sys
-import vim
-if 'VIRTUAL_ENV' in os.environ:
-    project_base_dir = os.environ['VIRTUAL_ENV']
-    sys.path.insert(0, project_base_dir)
-    activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
-    execfile(activate_this, dict(__file__=activate_this))
-EOF
