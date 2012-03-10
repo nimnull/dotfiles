@@ -117,10 +117,11 @@ map <leader>j :RopeGotoDefinition<CR>
 " Rename whatever the cursor is on (including references to it)
 map <leader>r :RopeRename<CR>
 
+" Paste selection to the http://paste.pocoo.org
+map <leader>p :Lodgeit<CR>
+
 " Set working directory
 nnoremap <leader>. :lcd %:p:h<CR>
-" Paste from clipboard
-map <leader>p "+p
 
 " Quit window on <leader>q
 nnoremap <leader>q :q<CR>
