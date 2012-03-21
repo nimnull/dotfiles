@@ -58,3 +58,6 @@
 [submodule ".vim/bundle/coffee"]
 	path = .vim/bundle/coffee
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule ".vim/bundle/minibufexpl"]
+	path = .vim/bundle/minibufexpl
+	url = https://github.com/sontek/minibufexpl.vim.git
