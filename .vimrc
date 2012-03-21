@@ -11,7 +11,7 @@ filetype plugin indent on " turn on the indent plugins
 
 " Disable the colorcolumn when switching modes.  Make sure this is the
 " first autocmd for the filetype here
-au FileType * setlocal colorcolumn=0
+au FileType * setlocal colorcolumn=80
 
 au BufNewFile,BufRead *.html,*.mako,*.mak,*.jinja2 set ft=htmldjango
 au BufRead *.py set efm=%C\ %.%#,%A\ \ File\ \"%f\"\\,\ line\ %l%.%#,%Z%[%^\ ]%\\@=%m
@@ -54,7 +54,7 @@ match WhitespaceEOL /\s\+$/
 " match Error /\%>79v.\+/
 
 
-set colorcolumn=79
+set colorcolumn=80
 set term=gnome-256color
 set smarttab
 set autoindent
