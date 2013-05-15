@@ -61,3 +61,6 @@
 [submodule ".vim/bundle/minibufexpl"]
 	path = .vim/bundle/minibufexpl
 	url = https://github.com/sontek/minibufexpl.vim.git
+[submodule ".vim/bundle/handlebars"]
+	path = .vim/bundle/handlebars
+	url = git://github.com/nono/vim-handlebars.git
