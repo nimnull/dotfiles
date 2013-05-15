@@ -1,11 +1,13 @@
 [user]
-	name = Yegor Nazarkin
+	name = Yehor Nazarkin
 	email = nimnull@gmail.com
 [color]
-	ui = auto
-
-[giggle]
-	main-window-maximized = true
-	main-window-geometry = 412x200+752+248
+        ui = auto
 [core]
-	editor = vim
+        editor = /usr/bin/vim
+        pager = less
+[alias]
+        hist = log --graph --oneline --decorate
+        st = status
+[mergetool]
+	keepBackup = true
