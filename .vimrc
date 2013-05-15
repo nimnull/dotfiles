@@ -33,6 +33,7 @@ au BufNewFile,BufRead *.py set tw=72 ts=4 sts=4 sw=4 et
 au BufNewFile,BufReadPost *.coffee setl sts=2 sw=2 et
 " Wrap at 72 chars for comments.
 set formatoptions=cq textwidth=72 foldignore= wildignore+=*.py[co]
+set backspace=indent,eol,start
 
 " More syntax highlighting.
 let python_highlight_all = 1
