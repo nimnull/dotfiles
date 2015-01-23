@@ -15,7 +15,6 @@ au FileType * setlocal colorcolumn=80
 
 au BufNewFile,BufRead *.html,*.mako,*.mak,*.jinja2 set ft=htmldjango
 au BufRead *.py set efm=%C\ %.%#,%A\ \ File\ \"%f\"\\,\ line\ %l%.%#,%Z%[%^\ ]%\\@=%m
-au BufWritePost *.coffee silent CoffeeMake! -b | cwindow | redraw!
 
 au FileType python set omnifunc=pysmell#Complete
 au FileType javascript set omnifunc=javascriptcomplete#CompleteJS
@@ -30,7 +29,6 @@ au BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,final
 au BufWritePre *.py normal m`:%s/\s\+$//e
 " Wrapping and tabs.
 au BufNewFile,BufRead *.py set tw=72 ts=4 sts=4 sw=4 et
-au BufNewFile,BufReadPost *.coffee setl sts=2 sw=2 et
 " Wrap at 72 chars for comments.
 set formatoptions=cq textwidth=72 foldignore= wildignore+=*.py[co]
 set backspace=indent,eol,start
