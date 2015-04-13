@@ -19,6 +19,11 @@ Plugin 'bling/vim-airline'          " Lean & mean status/tabline for vim
 Plugin 'fisadev/FixedTaskList.vim'  " Pluginginending tasks list
 Plugin 'rosenfeld/conque-term'      " Consoles as bundleffers
 Plugin 'tpope/vim-surround'         " Parentheses, brackets, quotes, XML tags, and more
+Plugin 'wincent/command-t'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/syntastic'
+Plugin 'vim-scripts/Gundo'
 
 "---------=== Languages support ===-------------
 " --- Python ---
@@ -26,11 +31,18 @@ Plugin 'klen/python-mode'               " Python mode (docs, refactor, lints, hi
 Plugin 'davidhalter/jedi-vim'           " Jedi-vim autocomplete plugin
 Plugin 'mitsuhiko/vim-jinja'            " Jinja support for              vim
 Plugin 'mitsuhiko/vim-python-combined'  " Combined Python 2/3 for Vim
-
+" --- Frontend staff ---
 Plugin 'vim-scripts/vim-coffee-script'
-Plugin 'wincent/command-t'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'tpope/vim-fugitive'
+Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'briancollins/vim-jst'
+Plugin 'jsx/jsx.vim'
+" --- Erlang support ---
+Plugin 'vim-erlang/vim-erlang-runtime'
+Plugin 'vim-erlang/vim-erlang-compiler'
+Plugin 'vim-erlang/vim-erlang-omnicomplete'
+Plugin 'vim-erlang/vim-erlang-tags'
+
+
 
 call vundle#end()            " required
 
