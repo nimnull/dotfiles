@@ -42,8 +42,6 @@ Plugin 'vim-erlang/vim-erlang-compiler'
 Plugin 'vim-erlang/vim-erlang-omnicomplete'
 Plugin 'vim-erlang/vim-erlang-tags'
 
-
-
 call vundle#end()            " required
 
 syntax on                 " syntax highlighing
@@ -145,6 +143,10 @@ let g:airline#extensions#virtualenv#enabled = 1
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#syntastic#enabled = 1
 
+let g:pymode_rope = 0
+let g:pymode_rope_completion = 0
+let g:pymode_rope_complete_on_dot = 0
+
 let g:pymode_virtualenv = 1
 let g:pymode_doc = 0
 let g:pymode_doc_key = 'K'
@@ -169,14 +171,14 @@ map <c-h> <c-w>h
 map <leader>nt :NERDTreeToggle<CR>
 
 " Toggle the tasklist
-map <leader>td <Plug>TaskList
+nnoremap <leader>td <Plug>TaskList
 
 " TagBar
-map <leader>tb :TagbarToggle<CR>
+nnoremap <leader>tb :TagbarToggle<CR>
 let g:tagbar_autofocus = 0 " автофокус на Tagbar при открытии
 
 " Load the Gundo window
-map <leader>g :GundoToggle<CR>
+nnoremap <leader>g :GundoToggle<CR>
 
 " Jump to the definition of whatever the cursor is on
 " map <leader>j :RopeGotoDefinition<CR>
@@ -202,4 +204,4 @@ nnoremap <leader>Td :set ft=django<CR>
 " Select the item in the list with enter
 " inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " Reload Vimrc
-map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
+nnoremap <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo '.vimrc reloaded'"<CR>
