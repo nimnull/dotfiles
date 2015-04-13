@@ -5,13 +5,13 @@ call pathogen#helptags()
 call pathogen#infect()
 
 syntax on                 " syntax highlighing
-" filetype on
+filetype on
 filetype plugin on
 filetype plugin indent on " turn on the indent plugins
 
 " Disable the colorcolumn when switching modes.  Make sure this is the
 " first autocmd for the filetype here
-au FileType * setlocal colorcolumn=80
+" au FileType * setlocal colorcolumn=80
 
 au BufNewFile,BufRead *.html,*.mako,*.mak,*.jinja2 set ft=htmldjango
 au BufRead *.py set efm=%C\ %.%#,%A\ \ File\ \"%f\"\\,\ line\ %l%.%#,%Z%[%^\ ]%\\@=%m
@@ -55,7 +55,7 @@ match WhitespaceEOL /\s\+$/
 " match Error /\%>79v.\+/
 
 
-set colorcolumn=80
+" set colorcolumn=80
 set term=gnome-256color
 set smarttab
 set autoindent
@@ -95,7 +95,7 @@ let mapleader=","  " change the leader to be a comma vs slash
 let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.pyo$']
 let g:syntastic_check_on_open=1
 let g:syntastic_mode_map = {'mode': 'active',
- \ 'active_filetypes': ['python', 'javascript', 'coffee', 'lua'],
+ \ 'active_filetypes': ['python', 'javascript', 'coffee', 'lua', 'erlang'],
  \ 'passive_filetypes': ['puppet', 'css', 'sass', 'haml', 'scss', 'json'] }
 
 map <c-j> <c-w>j
