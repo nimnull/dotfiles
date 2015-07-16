@@ -19,12 +19,13 @@ Plugin 'bling/vim-airline'          " Lean & mean status/tabline for vim
 Plugin 'fisadev/FixedTaskList.vim'  " Pluginginending tasks list
 Plugin 'rosenfeld/conque-term'      " Consoles as bundleffers
 Plugin 'tpope/vim-surround'         " Parentheses, brackets, quotes, XML tags, and more
-Plugin 'wincent/command-t'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-scripts/Gundo'
+Plugin 'kien/ctrlp.vim'
 
+Plugin 'mv/mv-vim-nginx'
 "---------=== Languages support ===-------------
 " --- Python ---
 Plugin 'klen/python-mode'               " Python mode (docs, refactor, lints, highlightting, run and ipdb and more)
@@ -200,6 +201,8 @@ nnoremap <leader>S :%s/\s\+$//<cr>:let @/=''<CR>
 
 nnoremap <leader>Tj :set ft=htmljinja<CR>
 nnoremap <leader>Td :set ft=django<CR>
+
+noremap <leader>t :CtrlP %:p:h<cr>
 
 " Select the item in the list with enter
 " inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
