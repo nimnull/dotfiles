@@ -1,0 +1,40 @@
+{
+	"bootstrapped": true,
+	"ignore_vcs_packages": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Anaconda",
+		"arduino-cli",
+		"Arduino-like IDE",
+		"Babel",
+		"DashDoc",
+		"Dockerfile Syntax Highlighting",
+		"GitGutter",
+		"GoSublime",
+		"INI",
+		"JavaScriptNext - ES6 Syntax",
+		"Jinja2",
+		"LESS",
+		"MagicPython",
+		"Material Theme",
+		"nginx",
+		"Package Control",
+		"Pretty YAML",
+		"Puppet",
+		"Python 3",
+		"ReactJS",
+		"Rust",
+		"RustAutoComplete",
+		"SideBarEnhancements",
+		"SublimePythonIDE",
+		"Theme - Brogrammer",
+		"Theme - Flatland",
+		"Theme - Nexus",
+		"Theme - Numix",
+		"TOML"
+	]
+}

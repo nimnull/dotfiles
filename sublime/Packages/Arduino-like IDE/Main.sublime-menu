@@ -1,0 +1,1502 @@
+[
+    {
+        "mnemonic": "n", 
+        "caption": "Preferences", 
+        "children": [
+            {
+                "checkbox": true, 
+                "caption": "Show Arduino Menu", 
+                "command": "show_arduino_menu"
+            }
+        ], 
+        "id": "preferences"
+    }, 
+    {
+        "mnemonic": null, 
+        "caption": "Arduino", 
+        "children": [
+            {
+                "caption": "New Sketch", 
+                "command": "new_sketch"
+            }, 
+            {
+                "mnemonic": null, 
+                "caption": "Sketchbook", 
+                "children": [
+                    {
+                        "args": {
+                            "folder": "/Users/nimnull/Documents/Arduino/GraphicsTest"
+                        }, 
+                        "caption": "GraphicsTest", 
+                        "command": "open_sketch"
+                    }, 
+                    {
+                        "args": {
+                            "folder": "/Users/nimnull/Documents/Arduino/display_hello"
+                        }, 
+                        "caption": "display_hello", 
+                        "command": "open_sketch"
+                    }, 
+                    {
+                        "mnemonic": null, 
+                        "caption": "libraries", 
+                        "children": [
+                            {
+                                "mnemonic": null, 
+                                "caption": "SoftwareServo", 
+                                "children": [
+                                    {
+                                        "mnemonic": null, 
+                                        "caption": "examples", 
+                                        "children": [
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/SoftwareServo/examples/SerialServo"
+                                                }, 
+                                                "caption": "SerialServo", 
+                                                "command": "open_sketch"
+                                            }
+                                        ], 
+                                        "id": "examples"
+                                    }
+                                ], 
+                                "id": "softwareservo"
+                            }, 
+                            {
+                                "mnemonic": null, 
+                                "caption": "U8glib_Arduino-1.19.1", 
+                                "children": [
+                                    {
+                                        "mnemonic": null, 
+                                        "caption": "examples", 
+                                        "children": [
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/A2Printer"
+                                                }, 
+                                                "caption": "A2Printer", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Bitmap"
+                                                }, 
+                                                "caption": "Bitmap", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Chess"
+                                                }, 
+                                                "caption": "Chess", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Console"
+                                                }, 
+                                                "caption": "Console", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/F"
+                                                }, 
+                                                "caption": "F", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/FPS"
+                                                }, 
+                                                "caption": "FPS", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/GraphicsTest"
+                                                }, 
+                                                "caption": "GraphicsTest", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/HelloWorld"
+                                                }, 
+                                                "caption": "HelloWorld", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Menu"
+                                                }, 
+                                                "caption": "Menu", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/PrintTest"
+                                                }, 
+                                                "caption": "PrintTest", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Rotation"
+                                                }, 
+                                                "caption": "Rotation", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Scale"
+                                                }, 
+                                                "caption": "Scale", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/TextRotX"
+                                                }, 
+                                                "caption": "TextRotX", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Touch4WSetup"
+                                                }, 
+                                                "caption": "Touch4WSetup", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Touch4WTest"
+                                                }, 
+                                                "caption": "Touch4WTest", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/U8gLogo"
+                                                }, 
+                                                "caption": "U8gLogo", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/XBM"
+                                                }, 
+                                                "caption": "XBM", 
+                                                "command": "open_sketch"
+                                            }
+                                        ], 
+                                        "id": "examples"
+                                    }
+                                ], 
+                                "id": "u8glib_arduino-1.19.1"
+                            }, 
+                            {
+                                "mnemonic": null, 
+                                "caption": "makeblock", 
+                                "children": [
+                                    {
+                                        "mnemonic": null, 
+                                        "caption": "examples", 
+                                        "children": [
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/BaseBoardBuzzerTest"
+                                                }, 
+                                                "caption": "BaseBoardBuzzerTest", 
+                                                "command": "open_sketch"
+                                            }
+                                        ], 
+                                        "id": "examples"
+                                    }
+                                ], 
+                                "id": "makeblock"
+                            }
+                        ], 
+                        "id": "libraries"
+                    }, 
+                    {
+                        "args": {
+                            "folder": "/Users/nimnull/Documents/Arduino/servo1"
+                        }, 
+                        "caption": "servo1", 
+                        "command": "open_sketch"
+                    }, 
+                    {
+                        "args": {
+                            "folder": "/Users/nimnull/Documents/Arduino/ssd1306_128x64_i2c"
+                        }, 
+                        "caption": "ssd1306_128x64_i2c", 
+                        "command": "open_sketch"
+                    }, 
+                    {
+                        "caption": "-", 
+                        "command": null
+                    }
+                ], 
+                "id": "sketchbook"
+            }, 
+            {
+                "mnemonic": null, 
+                "caption": "Examples", 
+                "children": [
+                    {
+                        "mnemonic": null, 
+                        "caption": "General", 
+                        "children": [
+                            {
+                                "mnemonic": null, 
+                                "caption": "SoftwareServo", 
+                                "children": [
+                                    {
+                                        "mnemonic": null, 
+                                        "caption": "examples", 
+                                        "children": [
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/SoftwareServo/examples/SerialServo"
+                                                }, 
+                                                "caption": "SerialServo", 
+                                                "command": "open_sketch"
+                                            }
+                                        ], 
+                                        "id": "examples"
+                                    }
+                                ], 
+                                "id": "softwareservo"
+                            }, 
+                            {
+                                "mnemonic": null, 
+                                "caption": "Temboo", 
+                                "children": [
+                                    {
+                                        "mnemonic": null, 
+                                        "caption": "examples", 
+                                        "children": [
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "ArduinoYun", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/Temboo/examples/ArduinoYun/GetYahooWeatherReport"
+                                                        }, 
+                                                        "caption": "GetYahooWeatherReport", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/Temboo/examples/ArduinoYun/ReadATweet"
+                                                        }, 
+                                                        "caption": "ReadATweet", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/Temboo/examples/ArduinoYun/SendATweet"
+                                                        }, 
+                                                        "caption": "SendATweet", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/Temboo/examples/ArduinoYun/SendAnEmail"
+                                                        }, 
+                                                        "caption": "SendAnEmail", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/Temboo/examples/ArduinoYun/SendAnSMS"
+                                                        }, 
+                                                        "caption": "SendAnSMS", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/Temboo/examples/ArduinoYun/SendDataToGoogleSpreadsheet"
+                                                        }, 
+                                                        "caption": "SendDataToGoogleSpreadsheet", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/Temboo/examples/ArduinoYun/ToxicFacilitiesSearch"
+                                                        }, 
+                                                        "caption": "ToxicFacilitiesSearch", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/Temboo/examples/ArduinoYun/UpdateFacebookStatus"
+                                                        }, 
+                                                        "caption": "UpdateFacebookStatus", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/Temboo/examples/ArduinoYun/UploadToDropbox"
+                                                        }, 
+                                                        "caption": "UploadToDropbox", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "arduinoyun"
+                                            }
+                                        ], 
+                                        "id": "examples"
+                                    }
+                                ], 
+                                "id": "temboo"
+                            }, 
+                            {
+                                "mnemonic": null, 
+                                "caption": "U8glib_Arduino-1.19.1", 
+                                "children": [
+                                    {
+                                        "mnemonic": null, 
+                                        "caption": "examples", 
+                                        "children": [
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/A2Printer"
+                                                }, 
+                                                "caption": "A2Printer", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Bitmap"
+                                                }, 
+                                                "caption": "Bitmap", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Chess"
+                                                }, 
+                                                "caption": "Chess", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Console"
+                                                }, 
+                                                "caption": "Console", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/F"
+                                                }, 
+                                                "caption": "F", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/FPS"
+                                                }, 
+                                                "caption": "FPS", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/GraphicsTest"
+                                                }, 
+                                                "caption": "GraphicsTest", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/HelloWorld"
+                                                }, 
+                                                "caption": "HelloWorld", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Menu"
+                                                }, 
+                                                "caption": "Menu", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/PrintTest"
+                                                }, 
+                                                "caption": "PrintTest", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Rotation"
+                                                }, 
+                                                "caption": "Rotation", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Scale"
+                                                }, 
+                                                "caption": "Scale", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/TextRotX"
+                                                }, 
+                                                "caption": "TextRotX", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Touch4WSetup"
+                                                }, 
+                                                "caption": "Touch4WSetup", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/Touch4WTest"
+                                                }, 
+                                                "caption": "Touch4WTest", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/U8gLogo"
+                                                }, 
+                                                "caption": "U8gLogo", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1/examples/XBM"
+                                                }, 
+                                                "caption": "XBM", 
+                                                "command": "open_sketch"
+                                            }
+                                        ], 
+                                        "id": "examples"
+                                    }
+                                ], 
+                                "id": "u8glib_arduino-1.19.1"
+                            }, 
+                            {
+                                "mnemonic": null, 
+                                "caption": "makeblock", 
+                                "children": [
+                                    {
+                                        "mnemonic": null, 
+                                        "caption": "examples", 
+                                        "children": [
+                                            {
+                                                "args": {
+                                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/BaseBoardBuzzerTest"
+                                                }, 
+                                                "caption": "BaseBoardBuzzerTest", 
+                                                "command": "open_sketch"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Makeblock_Robot_Starter_Kit", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Makeblock_Robot_Starter_Kit/DualMode_Starter"
+                                                        }, 
+                                                        "caption": "DualMode_Starter", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Makeblock_Robot_Starter_Kit/IR_Control"
+                                                        }, 
+                                                        "caption": "IR_Control", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Makeblock_Robot_Starter_Kit/Ultrasonic_car"
+                                                        }, 
+                                                        "caption": "Ultrasonic_car", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "makeblock_robot_starter_kit"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_4Button", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_4Button/Me4ButtonTest"
+                                                        }, 
+                                                        "caption": "Me4ButtonTest", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_4button"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_7SegmentDisplay", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_7SegmentDisplay/NumberDisplay"
+                                                        }, 
+                                                        "caption": "NumberDisplay", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_7SegmentDisplay/NumberFlow"
+                                                        }, 
+                                                        "caption": "NumberFlow", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_7SegmentDisplay/TimeDisplay"
+                                                        }, 
+                                                        "caption": "TimeDisplay", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_7segmentdisplay"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_Bluetooth", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_Bluetooth/TestSlaveBluetoothBySoftSerial"
+                                                        }, 
+                                                        "caption": "TestSlaveBluetoothBySoftSerial", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_bluetooth"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_Compass", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_Compass/MeCompass"
+                                                        }, 
+                                                        "caption": "MeCompass", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_compass"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_EncoderDriver", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_EncoderDriver/EncoderMotorTest"
+                                                        }, 
+                                                        "caption": "EncoderMotorTest", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_encoderdriver"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_Gyro", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_Gyro/GyroRotation"
+                                                        }, 
+                                                        "caption": "GyroRotation", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_gyro"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_Joystick", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_Joystick/MeJoystickTest"
+                                                        }, 
+                                                        "caption": "MeJoystickTest", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_joystick"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_LightSensor", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_LightSensor/MeLightSensorTest"
+                                                        }, 
+                                                        "caption": "MeLightSensorTest", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_LightSensor/MeLightSensorTestWithLight"
+                                                        }, 
+                                                        "caption": "MeLightSensorTestWithLight", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_lightsensor"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_LimitSwitch", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_LimitSwitch/TestLimitSwitch"
+                                                        }, 
+                                                        "caption": "TestLimitSwitch", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_LimitSwitch/TestMicroSwitch"
+                                                        }, 
+                                                        "caption": "TestMicroSwitch", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_limitswitch"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_LineFollower", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_LineFollower/TestLineFollower"
+                                                        }, 
+                                                        "caption": "TestLineFollower", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_linefollower"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_MotorDriver", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_MotorDriver/TestDCMotorDriver"
+                                                        }, 
+                                                        "caption": "TestDCMotorDriver", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_motordriver"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_PIRMotionSensor", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_PIRMotionSensor/Test_PIRMotionSensor"
+                                                        }, 
+                                                        "caption": "Test_PIRMotionSensor", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_pirmotionsensor"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_Potentiometer", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_Potentiometer/TestPotentiometer"
+                                                        }, 
+                                                        "caption": "TestPotentiometer", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_potentiometer"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_RGBLed", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_RGBLed/ColorLoop"
+                                                        }, 
+                                                        "caption": "ColorLoop", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_RGBLed/Indicators"
+                                                        }, 
+                                                        "caption": "Indicators", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_RGBLed/WhiteBreathLight"
+                                                        }, 
+                                                        "caption": "WhiteBreathLight", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_rgbled"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_RJ25Adapter", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_RJ25Adapter/TestRJ25Adapter"
+                                                        }, 
+                                                        "caption": "TestRJ25Adapter", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_rj25adapter"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_Servo", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_Servo/Knob"
+                                                        }, 
+                                                        "caption": "Knob", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_Servo/TestServo"
+                                                        }, 
+                                                        "caption": "TestServo", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_servo"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_ServoDriver", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_ServoDriver/TestServoDriver1"
+                                                        }, 
+                                                        "caption": "TestServoDriver1", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_servodriver"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_Shutter", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_Shutter/MeShutterTest"
+                                                        }, 
+                                                        "caption": "MeShutterTest", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_shutter"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_SoundSensor", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_SoundSensor/TestSoundSensor"
+                                                        }, 
+                                                        "caption": "TestSoundSensor", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_soundsensor"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_StepperMotor", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_StepperMotor/SerialControlStepper"
+                                                        }, 
+                                                        "caption": "SerialControlStepper", 
+                                                        "command": "open_sketch"
+                                                    }, 
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_StepperMotor/TestStepperDriver"
+                                                        }, 
+                                                        "caption": "TestStepperDriver", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_steppermotor"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_TFT", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_TFT/MeTFT"
+                                                        }, 
+                                                        "caption": "MeTFT", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_tft"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_Temperature", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_Temperature/TestTemperature"
+                                                        }, 
+                                                        "caption": "TestTemperature", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_temperature"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_USBHost", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_USBHost/TestUSBHsot"
+                                                        }, 
+                                                        "caption": "TestUSBHsot", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_usbhost"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_UltrasonicSensor", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_UltrasonicSensor/TestUltrasonicSensor"
+                                                        }, 
+                                                        "caption": "TestUltrasonicSensor", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_ultrasonicsensor"
+                                            }, 
+                                            {
+                                                "mnemonic": null, 
+                                                "caption": "Me_Wifi", 
+                                                "children": [
+                                                    {
+                                                        "args": {
+                                                            "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock/examples/Me_Wifi/MeWifi"
+                                                        }, 
+                                                        "caption": "MeWifi", 
+                                                        "command": "open_sketch"
+                                                    }
+                                                ], 
+                                                "id": "me_wifi"
+                                            }
+                                        ], 
+                                        "id": "examples"
+                                    }
+                                ], 
+                                "id": "makeblock"
+                            }, 
+                            {
+                                "caption": "-", 
+                                "command": null
+                            }
+                        ], 
+                        "id": "general"
+                    }
+                ], 
+                "id": "examples"
+            }, 
+            {
+                "caption": "-", 
+                "command": null
+            }, 
+            {
+                "mnemonic": null, 
+                "caption": "Import Library", 
+                "children": [
+                    {
+                        "mnemonic": null, 
+                        "caption": "General", 
+                        "children": [
+                            {
+                                "args": {
+                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/SoftwareServo"
+                                }, 
+                                "caption": "SoftwareServo", 
+                                "command": "import_library"
+                            }, 
+                            {
+                                "args": {
+                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/Temboo"
+                                }, 
+                                "caption": "Temboo", 
+                                "command": "import_library"
+                            }, 
+                            {
+                                "args": {
+                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/U8glib_Arduino-1.19.1"
+                                }, 
+                                "caption": "U8glib_Arduino-1.19.1", 
+                                "command": "import_library"
+                            }, 
+                            {
+                                "args": {
+                                    "folder": "/Users/nimnull/Documents/Arduino/libraries/makeblock"
+                                }, 
+                                "caption": "makeblock", 
+                                "command": "import_library"
+                            }, 
+                            {
+                                "args": {
+                                    "folder": ""
+                                }, 
+                                "caption": "-", 
+                                "command": "import_library"
+                            }
+                        ], 
+                        "id": "general"
+                    }
+                ], 
+                "id": "import library"
+            }, 
+            {
+                "caption": "Show Sketch Folder", 
+                "command": "show_sketch_folder"
+            }, 
+            {
+                "caption": "-", 
+                "command": null
+            }, 
+            {
+                "caption": "Extra Flags", 
+                "command": "set_extra_flag"
+            }, 
+            {
+                "caption": "Verify/Compile", 
+                "command": "compile_sketch"
+            }, 
+            {
+                "caption": "Upload", 
+                "command": "upload_sketch"
+            }, 
+            {
+                "caption": "Upload by Using Programmer", 
+                "command": "upload_using_programmer"
+            }, 
+            {
+                "caption": "-", 
+                "command": null
+            }, 
+            {
+                "caption": "-", 
+                "command": null
+            }, 
+            {
+                "caption": "Burn Bootloader", 
+                "command": "burn_bootloader"
+            }, 
+            {
+                "caption": "-", 
+                "command": null
+            }, 
+            {
+                "mnemonic": null, 
+                "caption": "Serial Port", 
+                "children": [
+                    {
+                        "args": {
+                            "serial_port": 0
+                        }, 
+                        "caption": "/dev/cu.DaryasiPhone-WirelessiAP", 
+                        "command": "choose_serial_port", 
+                        "checkbox": true
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": 1
+                        }, 
+                        "caption": "/dev/tty.DaryasiPhone-WirelessiAP", 
+                        "command": "choose_serial_port", 
+                        "checkbox": true
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": 2
+                        }, 
+                        "caption": "/dev/cu.Bluetooth-Incoming-Port", 
+                        "command": "choose_serial_port", 
+                        "checkbox": true
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": 3
+                        }, 
+                        "caption": "/dev/tty.Bluetooth-Incoming-Port", 
+                        "command": "choose_serial_port", 
+                        "checkbox": true
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": 4
+                        }, 
+                        "caption": "/dev/cu.YehorsiPhone-WirelessiAP", 
+                        "command": "choose_serial_port", 
+                        "checkbox": true
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": 5
+                        }, 
+                        "caption": "/dev/tty.YehorsiPhone-WirelessiAP", 
+                        "command": "choose_serial_port", 
+                        "checkbox": true
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": 6
+                        }, 
+                        "caption": "/dev/cu.JBLFlip3-SPPDev", 
+                        "command": "choose_serial_port", 
+                        "checkbox": true
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": 7
+                        }, 
+                        "caption": "/dev/tty.JBLFlip3-SPPDev", 
+                        "command": "choose_serial_port", 
+                        "checkbox": true
+                    }
+                ], 
+                "id": "serial port"
+            }, 
+            {
+                "mnemonic": null, 
+                "caption": "Serial Monitor", 
+                "children": [
+                    {
+                        "caption": "Start", 
+                        "command": "start_serial_monitor"
+                    }, 
+                    {
+                        "caption": "Stop", 
+                        "command": "stop_serial_monitor"
+                    }, 
+                    {
+                        "caption": "Send", 
+                        "command": "send_serial_text"
+                    }, 
+                    {
+                        "mnemonic": null, 
+                        "caption": "Baudrate", 
+                        "children": [
+                            {
+                                "args": {
+                                    "baudrate": 0
+                                }, 
+                                "caption": "300", 
+                                "command": "choose_baudrate", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 1
+                                }, 
+                                "caption": "1200", 
+                                "command": "choose_baudrate", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 2
+                                }, 
+                                "caption": "2400", 
+                                "command": "choose_baudrate", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 3
+                                }, 
+                                "caption": "4800", 
+                                "command": "choose_baudrate", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 4
+                                }, 
+                                "caption": "9600", 
+                                "command": "choose_baudrate", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 5
+                                }, 
+                                "caption": "14400", 
+                                "command": "choose_baudrate", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 6
+                                }, 
+                                "caption": "19200", 
+                                "command": "choose_baudrate", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 7
+                                }, 
+                                "caption": "28800", 
+                                "command": "choose_baudrate", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 8
+                                }, 
+                                "caption": "38400", 
+                                "command": "choose_baudrate", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 9
+                                }, 
+                                "caption": "57600", 
+                                "command": "choose_baudrate", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 10
+                                }, 
+                                "caption": "115200", 
+                                "command": "choose_baudrate", 
+                                "checkbox": true
+                            }
+                        ], 
+                        "id": "baudrate"
+                    }, 
+                    {
+                        "mnemonic": null, 
+                        "caption": "Line Ending", 
+                        "children": [
+                            {
+                                "args": {
+                                    "line_ending": 0
+                                }, 
+                                "caption": "None", 
+                                "command": "choose_line_ending", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "line_ending": 1
+                                }, 
+                                "caption": "Newline", 
+                                "command": "choose_line_ending", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "line_ending": 2
+                                }, 
+                                "caption": "Carriage return", 
+                                "command": "choose_line_ending", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "line_ending": 3
+                                }, 
+                                "caption": "Both NL & CR", 
+                                "command": "choose_line_ending", 
+                                "checkbox": true
+                            }
+                        ], 
+                        "id": "line ending"
+                    }, 
+                    {
+                        "mnemonic": null, 
+                        "caption": "Display as", 
+                        "children": [
+                            {
+                                "args": {
+                                    "display_mode": 0
+                                }, 
+                                "caption": "Text", 
+                                "command": "choose_display_mode", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "display_mode": 1
+                                }, 
+                                "caption": "Ascii", 
+                                "command": "choose_display_mode", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "display_mode": 2
+                                }, 
+                                "caption": "Hex", 
+                                "command": "choose_display_mode", 
+                                "checkbox": true
+                            }
+                        ], 
+                        "id": "display as"
+                    }
+                ], 
+                "id": "serial monitor"
+            }, 
+            {
+                "caption": "-", 
+                "command": null
+            }, 
+            {
+                "caption": "Auto Format", 
+                "command": "auto_format"
+            }, 
+            {
+                "caption": "Archive Sketch", 
+                "command": "archive_sketch"
+            }, 
+            {
+                "caption": "-", 
+                "command": null
+            }, 
+            {
+                "mnemonic": null, 
+                "caption": "Preferences", 
+                "children": [
+                    {
+                        "caption": "Select Arduino Application Folder", 
+                        "command": "choose_arduino_folder"
+                    }, 
+                    {
+                        "caption": "Change Sketchbook Folder", 
+                        "command": "change_sketchbook_folder"
+                    }, 
+                    {
+                        "caption": "Select Build Folder", 
+                        "command": "choose_build_folder"
+                    }, 
+                    {
+                        "mnemonic": null, 
+                        "caption": "Language", 
+                        "children": [
+                            {
+                                "args": {
+                                    "language": 0
+                                }, 
+                                "caption": "Deutsch (German)", 
+                                "command": "choose_language", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "language": 1
+                                }, 
+                                "caption": "English (English)", 
+                                "command": "choose_language", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "language": 2
+                                }, 
+                                "caption": "espa\u00f1ol (Spanish)", 
+                                "command": "choose_language", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "language": 3
+                                }, 
+                                "caption": "fran\u00e7ais (French)", 
+                                "command": "choose_language", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "language": 4
+                                }, 
+                                "caption": "italiano (Italian)", 
+                                "command": "choose_language", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "language": 5
+                                }, 
+                                "caption": "\u65e5\u672c\u8a9e (Japanese)", 
+                                "command": "choose_language", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "language": 6
+                                }, 
+                                "caption": "portugu\u00eas - Brazil (Portuguese)", 
+                                "command": "choose_language", 
+                                "checkbox": true
+                            }, 
+                            {
+                                "args": {
+                                    "language": 7
+                                }, 
+                                "caption": "\u7b80\u4f53\u4e2d\u6587 (Chinese Simplified)", 
+                                "command": "choose_language", 
+                                "checkbox": true
+                            }
+                        ], 
+                        "id": "language"
+                    }
+                ], 
+                "id": "preferences"
+            }, 
+            {
+                "checkbox": true, 
+                "caption": "Global Setting", 
+                "command": "set_global_setting"
+            }, 
+            {
+                "checkbox": true, 
+                "caption": "Bare GCC Build (No Arduino code-munging)", 
+                "command": "set_bare_gcc_only"
+            }, 
+            {
+                "checkbox": true, 
+                "caption": "Full Compilation", 
+                "command": "set_full_compilation"
+            }, 
+            {
+                "mnemonic": null, 
+                "caption": "Show Verbose Output", 
+                "children": [
+                    {
+                        "checkbox": true, 
+                        "caption": "Compilation", 
+                        "command": "show_compilation_output"
+                    }, 
+                    {
+                        "checkbox": true, 
+                        "caption": "Upload", 
+                        "command": "show_upload_output"
+                    }
+                ], 
+                "id": "show verbose output"
+            }, 
+            {
+                "checkbox": true, 
+                "caption": "Verify Code after Upload", 
+                "command": "verify_code"
+            }, 
+            {
+                "caption": "-", 
+                "command": null
+            }, 
+            {
+                "mnemonic": null, 
+                "caption": "References", 
+                "children": [
+                    {
+                        "args": {
+                            "url": "Guide_index"
+                        }, 
+                        "caption": "Getting Started", 
+                        "command": "open_ref"
+                    }, 
+                    {
+                        "args": {
+                            "url": "Guide_Troubleshooting"
+                        }, 
+                        "caption": "Troubleshooting", 
+                        "command": "open_ref"
+                    }, 
+                    {
+                        "args": {
+                            "url": "index"
+                        }, 
+                        "caption": "Reference", 
+                        "command": "open_ref"
+                    }, 
+                    {
+                        "caption": "Find in Reference", 
+                        "command": "find_in_reference"
+                    }, 
+                    {
+                        "args": {
+                            "url": "FAQ"
+                        }, 
+                        "caption": "Frequently Asked Questions", 
+                        "command": "open_ref"
+                    }, 
+                    {
+                        "args": {
+                            "url": "http://arduino.cc"
+                        }, 
+                        "caption": "Visit Arduino Website", 
+                        "command": "open_url"
+                    }
+                ], 
+                "id": "references"
+            }, 
+            {
+                "caption": "About Stino", 
+                "command": "about_stino"
+            }
+        ], 
+        "id": "arduino"
+    }
+]
